@@ -53,7 +53,7 @@ In machine learning and artificial intelligence, selecting the right models is c
 
 ![Baseline Model Development](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/raw/main/Baseline%20Model%20Development.png)
 
-In our baseline model development, starting with word representation is crucial, transforming text inputs into vector forms for algorithmic comprehension and generalization. For medical text categorization, we employed three prominent models, detailed in Figure.
+In our baseline model development, starting with word representation is crucial, transforming text inputs into vector forms for algorithmic comprehension and generalization. For medical text categorization, we employed three prominent word representation models, detailed in Figure.
 
 # Avance Model Development
 
