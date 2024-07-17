@@ -31,7 +31,7 @@ This study delves into the application of BERT-based language models for classif
 
 This research design systematically evaluates BERT models for medical text transcription, emphasizing reliability and thoroughness. It begins with rigorous data collection and preprocessing, ensuring the suitability of datasets for medical applications. By integrating advanced model selection, hyperparameter tuning, and XAI methodologies, the study aims to enhance accuracy, transparency, and reproducibility in medical AI research.
 
-![Research Design]([[https://raw.githubusercontent.com/username/repository/branch/path/to/image.png](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/blob/main/Research%20Design.png)](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/blob/main/Research%20Design.png?raw=true))
+![Research Design](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/raw/main/Research%20Design.png)
 
 
 
