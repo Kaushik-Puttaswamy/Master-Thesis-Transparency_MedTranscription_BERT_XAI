@@ -68,7 +68,6 @@ Figure outlines advanced model development where medical transcripts inform a sp
 
 ![Fine-tuning BERT Model for Medical Text Classification](https://raw.githubusercontent.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/main/Fine-tuning%20BERT%20Model%20for%20Medical%20Text%20Classification.png)
 
-
 Figure illustrates the integration of a pre-trained BERT model tailored for sequence classification, particularly for medical text categorization. BERT's architecture includes special tokens like [CLS] and [SEP], originally trained on tasks like 'next sentence prediction' and 'masked-language modeling'. Fine-tuning on medical transcripts enables accurate classification into medical specialties, enhancing contextual understanding and prediction accuracy in healthcare applications.
 
 # Result Comparision between Baseline and Advanced Model 
