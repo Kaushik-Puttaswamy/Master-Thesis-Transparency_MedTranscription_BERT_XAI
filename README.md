@@ -25,4 +25,14 @@ Despite advancements with BERT-based models in medical text transcription, there
 
 # Research Methodology
 
+This study delves into the application of BERT-based language models for classifying medical text transcriptions across various disciplines, addressing significant gaps in existing literature. By systematically comparing BERT variations and integrating explainable AI (XAI) techniques, the research aims to enhance both accuracy and interpretability in clinical contexts. Through rigorous data preprocessing, exploratory analysis, and robust model evaluation, the study strives to provide actionable insights to improve the reliability and ethical implementation of AI-driven medical transcription categorization.
+
+# Research Design 
+
+This research design systematically evaluates BERT models for medical text transcription, emphasizing reliability and thoroughness. It begins with rigorous data collection and preprocessing, ensuring the suitability of datasets for medical applications. By integrating advanced model selection, hyperparameter tuning, and XAI methodologies, the study aims to enhance accuracy, transparency, and reproducibility in medical AI research.
+
+![Research Design]([https://raw.githubusercontent.com/username/repository/branch/path/to/image.png](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/blob/main/Research%20Design.png))
+
+
+
 
