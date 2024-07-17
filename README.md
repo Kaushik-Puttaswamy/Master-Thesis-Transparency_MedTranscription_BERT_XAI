@@ -81,7 +81,7 @@ In comparing medical specialty models, BioBERT, ClinicalBERT, BERT, and RoBERTa 
 
 # Integration of XAI with BERT Model
 
-![SHAP Values Visualization](https://raw.githubusercontent.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/main/SHAP%20Values%20%20Visualization.png)
+![SHAP Values Visualization](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/raw/main/SHAP%20Values%20%20Visualization.png)
 
 Integrating XAI with BioBERT enhances transparency in medical specialty classification by leveraging SHAP values to elucidate model predictions. This approach visualizes token contributions, aiding in understanding decision-making processes crucial for healthcare applications. Ensuring consistency and interpretability across varied inputs validates the reliability of SHAP explanations in enhancing model trustworthiness.
 
