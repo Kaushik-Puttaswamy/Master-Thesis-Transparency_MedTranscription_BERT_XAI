@@ -5,7 +5,7 @@ The proposed master's thesis aims to enhance the transparency and interpretabili
 
 # Research Field
 
-This thesis focuses on evaluating the performance of BERT-based models in medical transcription and exploring Explainable AI (XAI) techniques to enhance model transparency and interpretability. The research aims to provide insights into the model's decision-making process, crucial for building trust in healthcare applications. Integrating BERT with XAI seeks to create a more understandable transcription system, facilitating better clinical judgments and improved patient care.
+This thesis focuses on evaluating the performance of BERT-based models in medical transcription and exploring XAI techniques to enhance model transparency and interpretability. The research aims to provide insights into the model's decision-making process, crucial for building trust in healthcare applications. Integrating BERT with XAI seeks to create a more understandable transcription system, facilitating better clinical judgments and improved patient care.
 
 # Research Problem
 
@@ -25,7 +25,7 @@ Despite advancements with BERT-based models in medical text transcription, there
 
 # Research Methodology
 
-This study delves into the application of BERT-based language models for classifying medical text transcriptions across various disciplines, addressing significant gaps in existing literature. By systematically comparing BERT variations and integrating explainable AI (XAI) techniques, the research aims to enhance both accuracy and interpretability in clinical contexts. Through rigorous data preprocessing, exploratory analysis, and robust model evaluation, the study strives to provide actionable insights to improve the reliability and ethical implementation of AI-driven medical transcription categorization.
+This study delves into the application of BERT-based language models for classifying medical text transcriptions across various disciplines, addressing significant gaps in existing literature. By systematically comparing BERT variations and integrating XAI techniques, the research aims to enhance both accuracy and interpretability in clinical contexts. Through rigorous data preprocessing, exploratory analysis, and robust model evaluation, the study strives to provide actionable insights to improve the reliability and ethical implementation of AI-driven medical transcription categorization.
 
 # Dataset 
 This dataset has 4999 rows of records and six columns (‘Unnamed: 0,’ ‘description,’ ‘medical_specialty,’ ‘sample_name,’ ‘transcription,’ and ‘keywords’), as shown below.
@@ -100,11 +100,10 @@ In the repository, you'll find two separate folders related to our project:
 
 Python code - ML model with XAI (ipynb file):
 
-Contains the Medical Text Transcription Classification ML model with XAI Integration.ipynb file. This Jupyter Notebook file houses the Python code for our machine learning model with eXplainable AI (XAI). GitHub cannot display this file directly due to its size (50 MB). You can download the notebook, and to view the code and outputs, access it in a Google Colab notebook.
+Contains the Medical Text Transcription Classification ML model with XAI Integration.ipynb file. This Jupyter Notebook file houses the Python code for our machine learning model with XAI. GitHub cannot display this file directly due to its size (50 MB). You can download the notebook, and to view the code and outputs, access it in a Google Colab notebook.
 
 Python code - ML model with XAI (PDF file):
 
 Contains the Medical Text Transcription Classification ML model with XAI Integration.pdf file. This PDF version of the notebook provides another way to review the code and results conveniently.
 
-Thank you!
 
