@@ -27,7 +27,7 @@ Despite advancements with BERT-based models in medical text transcription, there
 
 This study delves into the application of BERT-based language models for classifying medical text transcriptions across various disciplines, addressing significant gaps in existing literature. By systematically comparing BERT variations and integrating explainable AI (XAI) techniques, the research aims to enhance both accuracy and interpretability in clinical contexts. Through rigorous data preprocessing, exploratory analysis, and robust model evaluation, the study strives to provide actionable insights to improve the reliability and ethical implementation of AI-driven medical transcription categorization.
 
-# Datset 
+# Dataset 
 This dataset has 4999 rows of records and six columns (‘Unnamed: 0,’ ‘description,’ ‘medical_specialty,’ ‘sample_name,’ ‘transcription,’ and ‘keywords’), as shown below.
 
 ![Dataset](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/blob/main/Dataset%20.png?raw=true)
@@ -74,4 +74,22 @@ Figure illustrates the integration of a pre-trained BERT model tailored for sequ
 
 # Result Comparision between Baseline and Advanced Model 
 
+![Result Comparison between Baseline and Advanced Model](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/blob/main/Result%20Comparision%20between%20Baseline%20and%20Advanced%20Model%20.png?raw=true)
+
+
+In comparing medical specialty models, BioBERT, ClinicalBERT, BERT, and RoBERTa achieved weighted average F1 scores of 0.93, 0.92, 0.90, and 0.92 respectively, surpassing previous non-transformer-based models (0.77 to 0.82). This underscores the superior accuracy of BERT models over traditional ML methods in medical classification tasks.
+
+# Integration of XAI with BERT Model
+
+![SHAP Values Visualization](https://raw.githubusercontent.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/main/SHAP%20Values%20%20Visualization.png)
+
+Integrating XAI with BioBERT enhances transparency in medical specialty classification by leveraging SHAP values to elucidate model predictions. This approach visualizes token contributions, aiding in understanding decision-making processes crucial for healthcare applications. Ensuring consistency and interpretability across varied inputs validates the reliability of SHAP explanations in enhancing model trustworthiness.
+
+# SHAP Integration and Robustness Testing with BioBERT
+
+Integrating SHAP values with BioBERT enhances interpretability in medical specialty prediction by highlighting significant terms like "ventricular" and "carpal tunnel" across cardiovascular and other cases. Robustness testing confirms the model's resilience to data perturbations, maintaining accuracy despite the removal of key terms and introduction of noisy data. This capability underscores BioBERT's reliability in handling diverse medical text inputs, crucial for real-world applications in healthcare.
+
+# Error Analysis with BioBERT and XAI in Medical Specialty Classification
+
+SHAP-based error analysis uncovers why BioBERT misclassifies medical specialties, revealing specific influential terms and suggesting improvements in contextual training data and feature engineering for enhanced model accuracy in healthcare applications.
 
