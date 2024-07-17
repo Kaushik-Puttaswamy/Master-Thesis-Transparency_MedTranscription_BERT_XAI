@@ -104,7 +104,7 @@ Contains the Medical Text Transcription Classification ML model with XAI Integra
 
 Python code - ML model with XAI (PDF file):
 
-Contains the Python code - ML model with XAI.pdf file. This PDF version of the notebook provides another way to review the code and results conveniently.
+Contains the Medical Text Transcription Classification ML model with XAI Integration.pdf file. This PDF version of the notebook provides another way to review the code and results conveniently.
 
 Thank you!
 
