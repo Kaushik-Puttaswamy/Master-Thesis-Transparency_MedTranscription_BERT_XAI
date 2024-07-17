@@ -30,7 +30,8 @@ This study delves into the application of BERT-based language models for classif
 # Datset 
 This dataset has 4999 rows of records and six columns (‘Unnamed: 0,’ ‘description,’ ‘medical_specialty,’ ‘sample_name,’ ‘transcription,’ and ‘keywords’), as shown below.
 
-![Dataset](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/raw/main/Dataset.png)
+![Dataset](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/blob/main/Dataset%20.png?raw=true)
+
 
 # Research Design 
 
@@ -66,7 +67,8 @@ Figure outlines advanced model development where medical transcripts inform a sp
 
 # BERT Models for Sequence Classification
 
-![Fine-tuning BERT Model for Medical Text Classification](https://raw.githubusercontent.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/main/Fine-tuning%20BERT%20Model%20for%20Medical%20Text%20Classification.png)
+![Fine-tuning BERT Model for Medical Text Classification](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/blob/main/Fine-tuning%20BERT%20Model%20for%20Medical%20Text%20Classification.png?raw=true)
+
 
 Figure illustrates the integration of a pre-trained BERT model tailored for sequence classification, particularly for medical text categorization. BERT's architecture includes special tokens like [CLS] and [SEP], originally trained on tasks like 'next sentence prediction' and 'masked-language modeling'. Fine-tuning on medical transcripts enables accurate classification into medical specialties, enhancing contextual understanding and prediction accuracy in healthcare applications.
 
