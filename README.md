@@ -93,3 +93,18 @@ Integrating SHAP values with BioBERT enhances interpretability in medical specia
 
 SHAP-based error analysis uncovers why BioBERT misclassifies medical specialties, revealing specific influential terms and suggesting improvements in contextual training data and feature engineering for enhanced model accuracy in healthcare applications.
 
+
+# Note:
+
+In the repository, you'll find two separate folders related to our project:
+
+Python code - ML model with XAI (ipynb file):
+
+Contains the Medical Text Transcription Classification ML model with XAI Integration.ipynb file. This Jupyter Notebook file houses the Python code for our machine learning model with eXplainable AI (XAI). GitHub cannot display this file directly due to its size (50 MB). You can download the notebook, and to view the code and outputs, access it in a Google Colab notebook.
+
+Python code - ML model with XAI (PDF file):
+
+Contains the Python code - ML model with XAI.pdf file. This PDF version of the notebook provides another way to review the code and results conveniently.
+
+Thank you!
+
