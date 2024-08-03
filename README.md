@@ -5,27 +5,27 @@ The proposed master's thesis aims to enhance the transparency and interpretabili
 
 # Research Field
 
-This thesis focuses on evaluating the performance of BERT-based models in medical transcription and exploring XAI techniques to enhance model transparency and interpretability. The research aims to provide insights into the model's decision-making process, crucial for building trust in healthcare applications. Integrating BERT with XAI seeks to create a more understandable transcription system, facilitating better clinical judgments and improved patient care.
+This thesis aims to assess the effectiveness of BERT-based models in medical transcription and investigate XAI methods to increase the model's interpretability. The research objectives aim to uncover the model's decision-making process, which is crucial for fostering trust in healthcare applications. Implementing BERT, along with XAI, aims to develop a better transcription system that could improve clinical decisions and, consequently, patients' outcomes.
 
 # Research Problem
 
-The research problem focuses on the lack of transparency and interpretability in deep learning models used for medical transcription. Given the high stakes in healthcare, it is critical to understand how these models make decisions to ensure dependability and safety. Present models' opacity raises concerns about their clinical use. This study aims to develop strategies for elucidating the elements influencing model predictions, thereby enhancing trust and accountability in medical applications.
+The research problem focuses on the opaqueness of deep learning models used in medical document transcription. Because of the nature of applications in the healthcare industry, it is necessary to know how these models arrive at decisions to improve dependability and safety. Current models’ lack of transparency is worrisome when it comes to applications in clinical settings. This work aims to identify the components that influence model predictions, thereby enhancing the model's reliability and transparency in the medical field.
 
 # Research Objectives
 
-This research evaluates the performance of fine-tuned BERT models in classifying medical transcription data, aiming for state-of-the-art results. It investigates the decision-making process of BERT models using SHAP XAI for interpretability and compares different pre-trained BERT models to identify the highest-performing one. Additionally, it analyzes model errors using word importance metrics to identify and address systematic errors posing potential safety risks in clinical settings.
+This study seeks to compare the performance of fine-tuned BERT models for medical transcription data, aiming at providing the best results. It also aims to examine how BERT models make decisions using SHAP XAI for explanation and determine which pre-trained BERT model gives the best result. Furthermore, it uses word importance metrics to analyze models' systematic errors and identify risks that may threaten patient safety in clinical environments.
 
 # Literature Review Summary
 
-Medical text transcription is vital for effective healthcare communication and decision-making. AI-driven methods, including BERT-based models like BioBERT and ClinicalBERT, show promise but often lack interpretability. Integrating XAI approaches like SHAP and LIME is still developing, and systematic comparisons across medical specialties are needed. Unstructured clinical notes and limited annotated datasets present challenges, requiring domain-specific preprocessing and collaboration with clinical professionals to improve AI model accuracy and practicality.
+Medical texts are transcribed. It holds significant importance in the field of health as it aids in the communication and handling of health-related concerns. People have used AI-based methods like BERT and its variants, such as BioBERT and ClinicalBERT, but interpretability typically presents a challenge. The integration of such XAI approaches as SHAP is still under construction, and comparable studies across medical fields are lacking. More free-text clinical notes and less annotated datasets have some issues, which need domain-specific pre-processing and more clinical experts’ help for AI model enhancement and usability.
 
 # Research Gap
 
-Despite advancements with BERT-based models in medical text transcription, there is a lack of systematic studies comparing their performance across medical disciplines. Current research often neglects interpretability and transparency, which are essential for clinical adoption. The integration of XAI methods like SHAP and LIME is still in its early stages, and comprehensive comparisons between traditional and transformer-based models using standardized datasets are missing. Additionally, the challenges of unstructured clinical notes and limited annotated datasets necessitate improved preprocessing and data augmentation techniques.
+Despite the evident progress in using BERT-based models in medical text transcription, there is still no comprehensive comparative analysis of their performance. The strategies used in modern studies are not very transparent, which makes it critical for clinicians to adopt the methods. Currently, the implementation of XAI methods such as SHAP is quite limited, and the comparison between traditional and transformer-based models on standardized datasets is not available. Moreover, due to the unstructured nature of clinical notes and the scarcity of annotated datasets, there is a need to improve the preprocessing and data augmentation steps.
 
 # Research Methodology
 
-This study delves into the application of BERT-based language models for classifying medical text transcriptions across various disciplines, addressing significant gaps in existing literature. By systematically comparing BERT variations and integrating XAI techniques, the research aims to enhance both accuracy and interpretability in clinical contexts. Through rigorous data preprocessing, exploratory analysis, and robust model evaluation, the study strives to provide actionable insights to improve the reliability and ethical implementation of AI-driven medical transcription categorization.
+This study focuses on the analysis of BERT-based language models to classify medical text transcription in all subject areas, solving essential problems from previous research. Because of this, the study aims to make clinical applications more accurate and easier to understand by systematically comparing different versions of BERT and using XAI techniques. The study's goal is to show that AI can reliably and ethically sort medical transcriptions into groups. This will be done through thorough data preparation, exploratory analysis, and rigorous model evaluation.
 
 # Dataset 
 This dataset has 4999 rows of records and six columns (‘Unnamed: 0,’ ‘description,’ ‘medical_specialty,’ ‘sample_name,’ ‘transcription,’ and ‘keywords’), as shown below.
@@ -37,17 +37,17 @@ This dataset has 4999 rows of records and six columns (‘Unnamed: 0,’ ‘desc
 
 ![Research Design](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/raw/main/Research%20Design.png)
 
-This research design systematically evaluates BERT models for medical text transcription, emphasizing reliability and thoroughness. It begins with rigorous data collection and preprocessing, ensuring the suitability of datasets for medical applications. By integrating advanced model selection, hyperparameter tuning, and XAI methodologies, the study aims to enhance accuracy, transparency, and reproducibility in medical AI research.
+This research design follows a reliable and comprehensive approach to assess BERT models in medical text transcription. First, it involves the collection and preprocessing of data, where it is made sure that the data collected is appropriate for medical use. Thus, through the combination of advanced model selection, hyperparameters, and XAI approaches, the study will strive to improve medical AI accuracy, transparency, and replicatability.
 
 # Data Preprocessing
 
 ![Preprocessing Flow Chart](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/raw/main/Preprocessing%20Flow%20Chart.png)
 
-Textual data preprocessing is crucial for natural language processing, especially in specialized fields like medical transcription. It involves inspecting and cleaning raw text, followed by normalization, tokenization, and lemmatization to structure data for machine learning models. This ensures data quality, reduces noise, and enhances relevance using domain-specific knowledge, preparing the dataset for analysis and modeling efficiently
+Preprocessing text data is important in NLP, particularly in medical transcription. This process includes steps such as cleaning of raw text, normalizing, tokenizing and lemmatizing of data to help get data in the proper format for machine learning models. This helps in maintaining the quality of data and in minimizing noise and increasing relevance using the domain knowledge necessary for data analysis and modeling.
 
 # Model Selection
 
-In machine learning and artificial intelligence, selecting the right models is crucial for effective prediction and analysis. Our approach integrates both traditional methods like Random Forest, SVM, XGBoost, and Logistic Regression, known for their robustness in handling complex data relationships and high-dimensional spaces. Additionally, we leverage advanced deep learning models such as BERT, BioBERT, Clinical BERT, and RoBERTa, which excel in extracting intricate patterns from extensive datasets, particularly in domains like natural language processing and biomedical research. This comprehensive model selection strategy ensures we capture diverse data nuances for accurate classification and actionable insights.
+In ML and AI, choosing models is important when making analyses and predictions. Our approach employs some of the conventional machine learning algorithms, such as Random Forest, SVM, XGBoost, and Logistic Regression, which are among the most effective techniques for handling high-order data relationships and data operating in high-dimensional space. Also, we utilize contemporary deep learning models such as BERT, BioBERT, Clinical BERT, and RoBERTa; these models are effective in identifying subtle patterns across large data sets, especially in fields like natural language processing and clinical research. This approach to selecting the model enables us to incorporate different aspects of data for proper classification and decision-making.
 
 # Baseline Model Development
 
@@ -63,14 +63,14 @@ After developing the baseline model, we must now develop the advanced model, as 
 
 ![Proposed Methodology for BERT as Advanced Model with XAI Technique for Decision Making](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/raw/main/Proposed%20Methodology%20for%20BERT%20as%20Advanced%20Model%20with%20XAI%20Technique%20for%20Decision%20Making.png)
 
-Figure outlines advanced model development where medical transcripts inform a specialized model, categorizing medical specialties. It incorporates color-coded outputs to highlight influential terms, enhancing decision transparency and trust in machine learning applications for medical text analysis.
+The figure demonstrates the advanced model development approach, utilizing medical transcripts to train a model that classifies medical specialties. It uses color-coded outputs to indicate the important terms, thus improving the decision-making process and the confidence of using machine learning in medical text analysis.
 
 # BERT Models for Sequence Classification
 
 ![Fine-tuning BERT Model for Medical Text Classification](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/blob/main/Fine-tuning%20BERT%20Model%20for%20Medical%20Text%20Classification.png?raw=true)
 
 
-Figure illustrates the integration of a pre-trained BERT model tailored for sequence classification, particularly for medical text categorization. BERT's architecture includes special tokens like [CLS] and [SEP], originally trained on tasks like 'next sentence prediction' and 'masked-language modeling'. Fine-tuning on medical transcripts enables accurate classification into medical specialties, enhancing contextual understanding and prediction accuracy in healthcare applications.
+Figure shows the integration of a fine-tuned BERT model for sequence classification, especially for the medical text categorization. We learned special tokens like [CLS] and [SEP] while using BERT for tasks like 'next sentence prediction' and 'masked language modeling.' Because of the fine-tuning, it is possible in medical applications to better classify the given medical transcripts into the respective medical specialties, improving both context awareness and prediction.
 
 # Result Comparision between Baseline and Advanced Model 
 
@@ -83,16 +83,24 @@ In comparing medical specialty models, BioBERT, ClinicalBERT, BERT, and RoBERTa 
 
 ![SHAP Values Visualization](https://github.com/Kaushik-Puttaswamy/Master-Thesis-Transparency_MedTranscription_BERT_XAI/raw/main/SHAP%20Values%20%20Visualization.png)
 
-Integrating XAI with BioBERT enhances transparency in medical specialty classification by leveraging SHAP values to elucidate model predictions. This approach visualizes token contributions, aiding in understanding decision-making processes crucial for healthcare applications. Ensuring consistency and interpretability across varied inputs validates the reliability of SHAP explanations in enhancing model trustworthiness.
+Integration of XAI with BioBERT helps to improve the interpretability of the medical specialty classification by using SHAP values to explain the model’s decisions. This approach visualizes token contributions, which can aid in the analysis of critical decision-making processes for healthcare applications. Because SHAP is consistent and easy to understand across a range of inputs, it is clear that SHAP explanations make the models more reliable.
 
 # SHAP Integration and Robustness Testing with BioBERT
 
-Integrating SHAP values with BioBERT enhances interpretability in medical specialty prediction by highlighting significant terms like "ventricular" and "carpal tunnel" across cardiovascular and other cases. Robustness testing confirms the model's resilience to data perturbations, maintaining accuracy despite the removal of key terms and introduction of noisy data. This capability underscores BioBERT's reliability in handling diverse medical text inputs, crucial for real-world applications in healthcare.
+Combining SHAP values with BioBERT makes the interpretation of the medical specialty prediction more clear and supports explaining important terms such as "ventricular" or "carpal tunnel" in cardiovascular and other cases. Robustness testing explains the model's ability to return the correct results by removing essential terms and adding noisy data. This capability mimics the nature of the real-world input that BioBERT is bound to encounter, making it reliable in healthcare applications.
 
 # Error Analysis with BioBERT and XAI in Medical Specialty Classification
 
-SHAP-based error analysis uncovers why BioBERT misclassifies medical specialties, revealing specific influential terms and suggesting improvements in contextual training data and feature engineering for enhanced model accuracy in healthcare applications.
+SHAP-based error analysis identifies the precise terms that influence the incorrect classification of medical specialties in BioBERT and suggests ways to improve contextual training data and feature engineering for future healthcare-related tasks to enhance accuracy.
 
+# Validity and Reliability of Research Methodology, Ethical Considerations, and Limitations
+The research methodology ensures validity and reliability by selecting multiple sources and preprocessing data, giving careful consideration to data collection and exploratory data analysis. The proposed data handling measures, such as text normalization, tokenization, and model validation using methods including SHAP values and cross-validation, help to achieve accurate results. Concerns about ethical implications include protecting patients' identities, proper disclosure of data usage, and model explainability. We must consider limitations such as small sample size, data biases, anonymization issues, and issues with normalizing text and understanding contexts to enhance the accuracy and ethicality of the studies.
+
+# Research Findings and Interpretation
+Superior pre-processing, sophisticated machine learning algorithms, and the use of XAI have all significantly accelerated the classification process. We found that transformer-based models like BioBERT are more effective than traditional models, underscoring the importance of developing more specific architectures. specific architecture.   SHAP values offer excellent interpretability over the features, contributing to the model’s acceptance in clinical setups. Such developments enhance the effectiveness of AI and its applications in the healthcare field, which leads to improvements in the overall results and the field of medical informatics.
+
+# Summary and Future Directions
+This research assessed the efficiency and interpretability of BERT-based models for medical text transcription and applied XAI tools such as SHAP. Traditional methods were less accurate and ineffective in classification as compared to BERT models, particularly BioBERT. Feature-important insights provided by SHAP enhanced model interpretability and, thus, the doctors’ confidence in the models. Exploring the combination of multiple XAI techniques, expanding the number and variety of datasets, and conducting clinical studies are necessary to evaluate the generalization and adaptation of the model in healthcare organizations. We should focus on the following areas to bolster AI's role in medical text analysis and enhance the efficacy of clinical decisions.
 
 # Note:
 
