@@ -116,4 +116,4 @@ Contains the Medical Text Transcription Classification ML model with XAI Integra
 
 ### Contact:
 
-Author: https://www.linkedin.com/in/kaushik-puttaswamy-data-analyst/
+Author: [LinkedIn](https://www.linkedin.com/in/kaushik-puttaswamy-data-analyst/)
